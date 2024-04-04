@@ -24,7 +24,7 @@ const Standings = (props) => {
 								<th></th>
 								<th>Pts</th>
 								<th>Laps</th>
-								<img className="absolute left-1/2 top-1/3" src={props.driversOrder == 0 ? "../images/Down.png" : "../images/Up.png"} width="15px" height="15px"></img>
+								<img className="absolute left-1/2 top-1/3" src={props.driversOrder == 0 ? "src/assets/Down.png" : "src/assets/Up.png"} width="15px" height="15px"></img>
 							</tr>
 						</thead>
 						<tbody>
@@ -49,7 +49,7 @@ const Standings = (props) => {
 								<th></th>
 								<th>Pts</th>
 								<th>Wins</th>
-								<img className="absolute left-1/2 top-1/3" src={props.constructorsOrder == 0 ? "../images/Down.png" : "../images/Up.png"} width="15px" height="15px"></img>							</tr>
+								<img className="absolute left-1/2 top-1/3" src={props.constructorsOrder == 0 ? "src/assets/Down.png" : "src/assets/Up.png"} width="15px" height="15px"></img>							</tr>
 						</thead>
 						<tbody>
 							{constructors.length == 0	? <tr><td>There is no data for this race</td><td></td><td></td><td></td></tr>

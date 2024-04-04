@@ -38,7 +38,7 @@ const RaceResult = (props) => {
 									<th className="px-1 py-1">Q1</th>
 									<th className="px-1 py-1">Q2</th>
 									<th className="px-1 py-1">Q3</th>
-									<img className="absolute left-1/2 top-1/3" src={props.qualifyingOrder == 0 ? "../images/Down.png" : "../images/Up.png"} width="15px" height="15px"></img>
+									<img className="absolute left-1/2 top-1/3" src={props.qualifyingOrder == 0 ? "src/assets/Down.png" : "src/assets/Up.png"} width="15px" height="15px"></img>
 								</tr>
 							</thead>
 							<tbody className="overflow-y-scroll">
@@ -81,7 +81,7 @@ const RaceResult = (props) => {
 								<th></th>
 								<th className="px-1 py-1 ">Laps</th>
 								<th className="px-1 py-1 ">Pts</th>
-								<img className="absolute left-1/2 top-1/3" src={props.resultsOrder == 0 ? "../images/Down.png" : "../images/Up.png"} width="15px" height="15px"></img>
+								<img className="absolute left-1/2 top-1/3" src={props.resultsOrder == 0 ? "src/assets/Down.png" : "src/assets/Up.png"} width="15px" height="15px"></img>
 							</tr>
 						</thead>
 						<tbody className="overflow-y-auto">

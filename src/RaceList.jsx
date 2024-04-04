@@ -19,7 +19,7 @@ const RaceList = (props) => {
 							<th className="px-3 py-2">Circuit</th>
 							<th className="px-3 py-2"></th>
 							<th className="px-3 py-2"></th>
-							<img className="absolute left-1/2 top-1/3" src={props.raceOrder == 0 ? "../images/Down.png" : "../images/Up.png"} width="15px" height="15px"></img>
+							<img className="absolute left-1/2 top-1/3" src={props.raceOrder == 0 ? "src/assets/Down.png" : "src/assets/Up.png"} width="15px" height="15px"></img>
 						</tr>
 					</thead>
 					<tbody className="overflow-y-auto">

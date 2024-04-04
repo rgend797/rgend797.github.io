@@ -47,7 +47,7 @@ const Page = (props) => {
 						<div className="flex items-center">
 							<label htmlFor="season" className="mr-2">Season</label>
 							<select id="season" onChange={(i) => filter(i.target.value)} className="border px-2 py-1 rounded-md focus:outline-none focus:border-blue-500">
-								<option value="2000-2024">2000-2023</option>
+								<option value="2000-2023">2000-2023</option>
 								{props.years.map((i) => (<option key={i.year} value={i.year}>{i.year}</option>))}
 							</select>
 						</div>

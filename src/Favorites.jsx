@@ -27,7 +27,7 @@ const Favorites = (props) => {
 				</div>
 				<div className="mx-4 w-1/3">
 					<h2 className="mb-4 text-lg font-semibold text-center">Circuits</h2>
-					<div className="bg-gray-100 p-4 overflow-y-auto max-h-40">
+					<div className="bg-gray-100 p-4 overflow-y-auto h-40">
 						<ul className=" py-2 cursor-pointer underline">
 							{props.circuitList.map((i) => <li key={"ci" + i.circuitId} onClick={() => props.popUp([1, i, "up"])} className="cursor-pointer text-center">{i.name}</li>)}
 						</ul>
